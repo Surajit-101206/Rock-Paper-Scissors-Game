@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    color: aliceblue;
+    height: 3rem;
+    background-color: rgb(6, 55, 98);
+    text-align: center;
+    align-items: center;
+    line-height: 3rem;
+}
+
+.game_box{
+    display: flex;
+    text-align: center;
+    margin-top: 7rem;
+    justify-content: center;
+    gap: 3rem;
+    cursor: pointer;
+}
+
+#scissor:hover{
+    border: 2px, solid black;;
+}
+
+#rock:hover{
+    border: 2px, solid black;;
+}
+
+#paper:hover{
+    border: 2px, solid black;;
+}
+
+#rock,#paper,#scissor{
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    line-height: 5.6rem; 
+    background-color: rgb(220, 122, 122);
+}
+
+#paper{
+    background-color: rgb(169, 175, 180);
+}
+
+#scissor{
+    background-color: rgb(43, 179, 75);
+}
+
+.point_table{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 4rem;
+}
+
+#userpoint,#comppoint{
+    font-size: 2rem;
+}
+
+.msg_container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#msg{
+    color: aliceblue;
+    font-size: 2rem;
+    margin-top: 6rem;
+    background-color:  rgb(6, 55, 98);
+    display: inline;
+    border-radius: 6%;
+    padding: 1rem;
+}
+
+.btn{
+    text-align: center;
+}
+
+.reset-btn{
+    justify-content: center;
+    margin-top: 5rem;
+    cursor: pointer;
+    background-color: #ef4444;
+    color: #ffffff;
+    /* border: none; */
+    padding: 10px 24px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.reset-btn:hover{
+    border: black;
+    background: #dc2626;
+}
